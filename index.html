@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Awesome Doc</h1>
-<p>I'm hosted with GitHub Pages.</p>
+---
+layout: default
+title: 我的Blog
+---
+
+<h2>{{ page.title }}</h2>
+
+<p>最新文章</p>
+
 <ul>
-	<li><a href="https://www.playframework.com/documentation/2.4.x/ScalaHome">play framework for scala</a></li>
-	<li><a href="http://doc.akka.io/docs/akka/current/scala/guide/introduction.html">akka framework for scala</a></li>
-	<li><a href="eCertificate.pdf">view my OCP Certificate</a></li>
+
+　　{% for post in site.posts %}
+
+　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+　　{% endfor %}
+
 </ul>
-</body>
-</html>
