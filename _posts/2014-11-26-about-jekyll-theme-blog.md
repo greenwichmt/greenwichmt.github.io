@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于 本 jekyll 主题 jekyll-theme-blog
+title: 关于 jekyll 博客主题 jekyll-theme-blog
 date: 2014-11-26 02:41
 author: admin
 comments: true
