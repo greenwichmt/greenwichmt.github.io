@@ -4,7 +4,7 @@ name: ms17's Personal Site's Personal Site
 url: "https://greenwichmt.github.io"
 email: aptignite@gmail.com
 description: 柳伟卫/老卫/Way Lau's Personal Site - 关注编程、系统架构、性能优化 | waylau.com
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 twitter_username: waylau521  # Twitter ID
 github_username:  ms17 # Github ID
 #weibo_username: waylau521  # Weibo ID
