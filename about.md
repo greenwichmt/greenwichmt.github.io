@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### 201706 - now &nbsp;&nbsp;&nbsp;&nbsp;Easyhome Shanghai  
+### 201706 - now [Easyhome](https://www.homestyler.com/) Shanghai  
 >公司为北京居然之家投资控股集团有限公司旗下子公司居然软件科技（上海）有限公司。坐标上海浦东新区陆家嘴软件园。团队成员来自于著名美企Autodesk原班人马。团队负责以3D工具为驱动的居然设计家云设计平台的产品和开发。  
 
 ### 201407 - 201705 ChinaUnicom Canton 
