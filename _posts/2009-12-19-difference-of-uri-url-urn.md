@@ -1,6 +1,6 @@
 ---
 layout: post
-title: URI、URL、URN 的联系和区别(引用
+title: URI、URL、URN relations and differences(引用
 date: 2009-12-19 00:22
 author: admin
 comments: true

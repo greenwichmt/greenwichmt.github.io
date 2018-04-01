@@ -1,20 +1,19 @@
 ---
 layout: post
 title: RESTful API Designing guidelines
-date: 2017-10-23 00:22
+date: 2018-04-02 06:30
 author: admin
 comments: true
 categories: [Api]
-tags: [Api,Criterion]
+tags: [Api,Guideline]
 ---
 
 `/api/v1/<resources>/:id/<sub-resources>/:sub-id`  
-## 资源对象
-1. API对象与数据库对象字段命名一致
-2. 字段名采用小写字母，下划线分割
-3. 如果资源对象使用到例子中的字段，命名保持一致
-4. 资源对象引用的文件使用files字段结构，用数组实现扩展性。
-5. 资源对象提供custom_data字段，实现扩展性。
+## resource object
+1. API object consistent to DB object including **field_name**
+2. lowercase field name, divided by underscore
+3. if resource object refer to several files, use **file array** to achieve scalable.
+5. use custom_data to enforce scalability of customed parameters.
 e.g.
 ```
     {
@@ -119,7 +118,8 @@ These status codes represent that the requested action was received and successf
 * 201 Created This status code should be returned whenever the new instance is created. E.g on creating a new instance, using POST method, should always return 201 status code.
 * 204 No Content represents the request is successfully processed, but has not returned any content.
 DELETE can be a good example of this.
-The API DELETE /companies/43/employees/2 will delete the employee 2 and in return we do not need any data in the response body of the API, as we explicitly asked the system to delete. If there is any error, like if employee 2 does not exist in the database, then the response code would be not be of 2xx Success Category but around 4xx Client Error category.
+The API DELETE /companies/43/employees/2 will delete the employee 2 and in return we do not need any data in the response body of the API, as we explicitly asked the system to delete. If there is any error, like if employee 2 does not exist in the database, then the response code would be not be of 2xx Success Category but around 4xx Client Error category.  
+
 #### 3xx (Redirection Category)
 * 304 Not Modified indicates that the client has the response already in its cache. And hence there is no need to transfer the same data again.
 #### 4xx (Client Error Category)
@@ -135,19 +135,21 @@ These status codes represent that the client has raised a faulty request.
 * 503 Service Unavailable indicates that the server is down or unavailable to receive and process the request. Mostly if the server is undergoing maintenance.
 
 ## Field name casing convention
-You can follow any casing convention, but make sure it is consistent across the application. If the request body or response type is JSON then please follow camelCase to maintain the consistency.
+You can follow any casing convention, but make sure it is consistent across the application. If the request body or response type is JSON then please follow `camelCase` to maintain the consistency.
 
 ## Searching, sorting, filtering and pagination
-All of these actions are simply the query on one dataset. There will be no new set of APIs to handle these actions. We need to append the query params with the GET method API.
+All of these actions are simply the query on one dataset. There will be no new set of APIs to handle these actions. We need to append the query params with the GET method API.  
 Let’s understand with few examples how to implement these actions.
 
-* Sorting In case, the client wants to get the sorted list of companies, the GET /companies endpoint should accept multiple sort params in the query.
-E.g GET /companies?sort=rank_asc would sort the companies by its rank in ascending order.
-* Filtering For filtering the dataset, we can pass various options through query params.
-E.g GET /companies?category=banking&location=india would filter the companies list data with the company category of Banking and where the location is India.
-* Searching When searching the company name in companies list the API endpoint should be GET /companies?search=Digital Mckinsey
-Pagination When the dataset is too large, we divide the data set into smaller chunks, which helps in improving the performance and is easier to handle the response. Eg. GET /companies?page=23 means get the list of companies on 23rd page.  
-If adding many query params in GET methods makes the URI too long, the server may respond with 414 URI Too long HTTP status, in those cases params can also be passed in the request body of the POST method.
+* **Sorting** In case, the client wants to get the sorted list of companies, the GET `/companies` endpoint should accept multiple sort params in the query.  
+E.g `GET /companies?sort=rank_asc` would sort the companies by its rank in ascending order.
+* **Filtering** For filtering the dataset, we can pass various options through query params.  
+E.g `GET /companies?category=banking&location=india` would filter the companies list data with the company category of Banking and where the location is India.
+* **Searching** When searching the company name in companies list the API endpoint should be `GET /companies?search=Digital Mckinsey`
+* **Pagination** When the dataset is too large, we divide the data set into smaller chunks, which helps in improving the performance and is easier to handle the response.  
+Eg. `GET /companies?page=23` means get the list of companies on 23rd page.  
+
+_If adding many query params in GET methods makes the URI too long, the server may respond with 414 URI Too long HTTP status, in those cases params can also be passed in the request body of the POST method._
 
 ## Versioning
 When your APIs are being consumed by the world, upgrading the APIs with some breaking change would also lead to breaking the existing products or services using your APIs.
@@ -156,10 +158,10 @@ When your APIs are being consumed by the world, upgrading the APIs with some bre
 
 ## Reference：
 
-* Box.com API<https://docs.box.com/reference#file-object>
-* HTTP Verbs<http://www.restapitutorial.com/lessons/httpmethods.html>
-* RestfulResourceNaming<http://www.restapitutorial.com/lessons/restfulresourcenaming.html>
-* JSON API Criterion<http://jsonapi.org/format/>
-* Best Practices<http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/>
-* rest api design reference<https://github.com/aisuhua/restful-api-design-references>
+* Box.com API <https://docs.box.com/reference#file-object>
+* HTTP Verbs <http://www.restapitutorial.com/lessons/httpmethods.html>
+* Restful Resource Naming <http://www.restapitutorial.com/lessons/restfulresourcenaming.html>
+* JSON API Criterion <http://jsonapi.org/format/>
+* Best Practices <http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/>
+* rest api design reference <https://github.com/aisuhua/restful-api-design-references>
 
