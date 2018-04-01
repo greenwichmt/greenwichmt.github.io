@@ -13,7 +13,7 @@ tags: [Api,Guidelines]
 1. API object consistent to DB object including **field_name**
 2. lowercase field name, divided by underscore
 3. if resource object refer to several files, use **file array** to achieve scalable.
-5. use custom_data to enforce scalability of customed parameters. e.g.
+5. use custom_data to enforce scalability of customed parameters. e.g.  
 ```
     {
 		"id": "13342",
