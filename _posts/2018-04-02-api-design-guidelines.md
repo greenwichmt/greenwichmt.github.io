@@ -16,8 +16,8 @@ tags: [Web,Api,Guidelines]
 5. use custom_data to enforce scalability of customed parameters. e.g.  
 ```
     {
-		"id": "13342",
-		"doc_type": "form",
+		"id": "a31469f3-5545-4be9-b640-f4466e51785a",
+		"doc_type": "design",
 		"version": 1,
 		"schema_version": 1,
 		"created_at": "2016-06-16T05:49:08.826Z",
