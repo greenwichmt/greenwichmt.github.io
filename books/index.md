@@ -8,6 +8,7 @@ permalink: /books/
 
 * [go for java programmers](https://talks.golang.org/2015/go-for-java-programmers.slide#1)
 * [CNZZ track event](http://open.cnzz.com/a/api/trackevent/)
+* [play rest api scaffold](https://developer.lightbend.com/guides/play-rest-api/index.html)
 
 ## recommend book list
 
