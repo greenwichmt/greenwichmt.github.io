@@ -10,6 +10,7 @@ permalink: /books/
 * [CNZZ track event](http://open.cnzz.com/a/api/trackevent/)
 * [play rest api scaffold](https://developer.lightbend.com/guides/play-rest-api/index.html)
 * [object-caching-net-4](http://deanhume.com/object-caching-net-4/)
+* [HashMap hash-key-value-pointer](https://www.youtube.com/watch?v=c3RVW3KGIIE)
 
 ## recommend book list
 
