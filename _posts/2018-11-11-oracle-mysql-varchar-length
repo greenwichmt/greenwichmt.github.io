@@ -1,3 +1,13 @@
+---
+layout: post
+title: Oracle and Mysql varchar length
+date: 2018-11-11 16:30
+author: admin
+comments: true
+categories: [database]
+tags: [oracle,mysql,database]
+---
+
 One of my collegues come across the problem. I gived her the answer and conclude it here!
 
 # MySQL 列长度
