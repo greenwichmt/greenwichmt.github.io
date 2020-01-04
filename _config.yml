@@ -2,13 +2,13 @@
 title: ms17's Personal Site - 关注编程、系统架构、性能优化
 name: ms17's Personal Site
 url: "https://greenwichmt.github.io"
-email: aptignite@gmail.com
+email: aptignite@yeah.net
 description: ms17的博客 - 关注编程、系统架构、性能优化 | greenwichmt.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog/
-#twitter_username: waylau521  # Twitter ID
+#twitter_username: n/a # Twitter ID
 github_username:  greenwichmt # Github ID
-#weibo_username: waylau521  # Weibo ID
-#facebook_username: waylau521  # Facebook ID
+#weibo_username: n/a # Weibo ID
+#facebook_username: n/a # Facebook ID
 changyan_appid: cysJiEpFq # 畅言 appid
 baidushare_id: 89860593 #  百度分享 ID
 baidutongji_id: 28cf5fa48a599e39c5cc760931de942f # 百度统计 ID
