@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me
+permalink: /aboutme/
 ---
 
 ### 201807 ~ now [华为](https://www.huawei.com/)
@@ -13,4 +13,5 @@ permalink: /about/
 ### 201407 ~ 201705 ChinaUnicom Canton 
 >中国联合网络通信集团有限公司拥有覆盖全国、通达世界的全球领先通信网络，积极推进固定网络和移动网络的宽带化，是拥有两种4G牌照的“双4G”运营商，开启4G+发展新阶段。中国联通积极推进“宽带中国”战略，为广大用户提供全方位、高品质信息通信服务。  
 
-[oracle certified professional](https://greenwichmt.github.io/resume/eCertificate.pdf)
+I got oracle certified professional certificate in late 2016.
+[//]: # (https://greenwichmt.github.io/resume/eCertificate.pdf)
