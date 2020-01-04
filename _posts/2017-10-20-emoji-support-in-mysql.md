@@ -4,7 +4,7 @@ title: Emoji support when using mysql
 date: 2017-10-20 15:03
 author: admin
 comments: true
-categories: [mysql]
+categories: [database]
 tags: [emoji,mysql]
 ---
 

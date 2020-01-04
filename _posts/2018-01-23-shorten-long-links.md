@@ -4,8 +4,8 @@ title: Shorten Long Links
 date: 2018-01-23 00:22
 author: admin
 comments: true
-categories: [Web]
-tags: [Web,Url]
+categories: [web]
+tags: [web,url]
 ---
 
 

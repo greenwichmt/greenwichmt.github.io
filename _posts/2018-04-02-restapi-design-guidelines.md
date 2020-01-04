@@ -4,8 +4,8 @@ title: RESTful API Designing guidelines
 date: 2018-04-02 06:30
 author: admin
 comments: true
-categories: [Web]
-tags: [Web,Api,Guidelines]
+categories: [web]
+tags: [web,api,guidelines]
 ---
 
 `/api/v1/<resources>/:id/<sub-resources>/:sub-id`  

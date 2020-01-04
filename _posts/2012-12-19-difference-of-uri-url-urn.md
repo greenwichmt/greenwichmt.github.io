@@ -4,8 +4,8 @@ title: URI,URL,URN relations and differences(引用
 date: 2015-12-19 00:22
 author: admin
 comments: true
-categories: [Other]
-tags: [Other,Url]
+categories: [other]
+tags: [other,url]
 ---
 
 在 Web 应用中，URI、URL 经常被人混淆和无解。本文详细描述了  URI、URL 以及 URN 之间的联系和区别。
