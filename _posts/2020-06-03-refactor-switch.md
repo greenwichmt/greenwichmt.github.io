@@ -18,7 +18,8 @@ Dependency Inversion principle.依赖倒转原则
 
 switch语句开发遇到多分支场景的时候经常用到，然而switch语句是不符合SOLID原则的(单一职责/开闭原则)，如果switch语句里面case太多怎么重构  
 
-1. 通过enum绑定各有特色的实现方法，来实现策略设计模式
+1. 通过enum绑定各有特色的实现方法，来实现策略设计模式  
+
 ``` java
 public enum PlayerTypes { 
     TENNIS,FOOTBALL, SNOOKER
