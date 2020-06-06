@@ -10,8 +10,8 @@ permalink: /aboutme/
 ### 201706 ~ 201806 [Homestyler](https://www.homestyler.com/) | [阿里躺平](https://www.tangping.com/)
 > Homestyler is a free, online software that will make your interior design experience easier and more fun. The Easyhome Homestyler brand offers two different home décor solution: the floor plan, that you find on our website www.homestyler.com and the application Homestyler, that is both available for iOS and Android devices.
 
-### 201407 ~ 201705 ChinaUnicom Canton 
->中国联合网络通信集团有限公司拥有覆盖全国、通达世界的全球领先通信网络，积极推进固定网络和移动网络的宽带化，是拥有两种4G牌照的“双4G”运营商，开启4G+发展新阶段。中国联通积极推进“宽带中国”战略，为广大用户提供全方位、高品质信息通信服务。  
+### 201407 ~ 201705 中国联通
+> 中国联合网络通信集团有限公司拥有覆盖全国、通达世界的全球领先通信网络，积极推进固定网络和移动网络的宽带化，是拥有两种4G牌照的“双4G”运营商，开启4G+发展新阶段。中国联通积极推进“宽带中国”战略，为广大用户提供全方位、高品质信息通信服务。  
 
 I got oracle certified professional certificate in late 2016.
 [//]: # (https://greenwichmt.github.io/resume/eCertificate.pdf)
