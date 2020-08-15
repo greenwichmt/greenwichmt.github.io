@@ -5,7 +5,7 @@ date: 2020-08-15 20:30
 author: admin
 comments: true
 categories: [algorithm]
-tags: [algorithm,leetcode,recursion]
+tags: [algorithm,leetcode]
 ---
 
 # 题目 1109. 航班预订统计
