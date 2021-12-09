@@ -20,4 +20,4 @@ permalink: /quotes/
 ## tech links
 * [java offheap benchmark](https://tingh.dev/2020/11/12/off-heap-memory.html)  
 * [java offheap unsafe](https://www.baeldung.com/java-unsafe)  
-* [java jvm size calculation](taking-a-closer-look-at-sizing-the-java-process.html)
+* [java jvm size calculation](https://blogs.vmware.com/apps/2011/06/taking-a-closer-look-at-sizing-the-java-process.html)
