@@ -18,5 +18,6 @@ permalink: /quotes/
 * You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.  —— Steve Jobs，<http://www.inc.com/magazine/19890401/5602.html>
 
 ## tech links
-[java offheap benchmark](https://tingh.dev/2020/11/12/off-heap-memory.html)  
-[java offheap unsafe](https://www.baeldung.com/java-unsafe)
+* [java offheap benchmark](https://tingh.dev/2020/11/12/off-heap-memory.html)  
+* [java offheap unsafe](https://www.baeldung.com/java-unsafe)  
+* [java jvm size calculation](taking-a-closer-look-at-sizing-the-java-process.html)
