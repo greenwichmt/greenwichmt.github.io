@@ -16,3 +16,6 @@ permalink: /quotes/
 
 * <http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF> —— Graham
 * You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.  —— Steve Jobs，<http://www.inc.com/magazine/19890401/5602.html>
+
+## tech links
+[benchmark offheap memory](https://tingh.dev/2020/11/12/off-heap-memory.html)
