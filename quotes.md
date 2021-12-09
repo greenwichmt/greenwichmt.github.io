@@ -19,3 +19,4 @@ permalink: /quotes/
 
 ## tech links
 [benchmark offheap memory](https://tingh.dev/2020/11/12/off-heap-memory.html)
+[java unsafe](https://www.baeldung.com/java-unsafe)
